@@ -1,0 +1,32 @@
+$info: yellow;
+$danger: purple;
+$darker: black;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+div {
+    > span {
+        color: $info;
+    }
+}
+
+.hero-image{
+    background-image: url('/images/SportsCollage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:800px;
+}
+
+
+.stats, .dashboard {
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: sepia(100%);
+    backdrop-filter: sepia(100%);
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Sports</title>
+   <!-- Link to bootstrap style sheet -->
+ 
+   <link rel="stylesheet" href="/css/site.css">
+      <!-- <style>
+    div {
+      border-style: solid;
+      border-color: black;
+ 
+    }
+    
+    </style>-->
+
+</head>
+
+<body class="container"> 
+  <!-- nav element with navbar class set to dark with dark background -->
+  <nav class="navbar p-3 navbar-expand-lg bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Sports Library</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="baseball.html">Baseball</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="basketball.html">Basketball</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="football.html">Football</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="add_sport.html">Add a Sport</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+<!--
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="stats">
+        <h2 class="card-title">Total sports (3)</h2>
+        <p class="card-text">Contributers(2)</p>     
+      </div>
+    </div>
+    <div class="col-lg-8"> 
+      <div class="dashboard">
+        <h1>Dashboard</h1> 
+        <h2 class="card-title">Welcome to sportslibrary.com</h2>
+        <p class="card-text">Help us compile information about every sports that has ever been played.</p>
+        <a href="add_sport.html" class="btn btn-primary">Add a Sport</a>
+      </div>    
+    </div>
+  </div>
+</div>
+-->
+
+<body>
+  <div class="hero-image">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 p-3">
+        <div class="stats p-5">
+          <h2 class="card-title">Total Sports (3)</h2>
+          <p class="card-text">Contributers(2)</p>     
+        </div>
+      </div>
+      <div class="col-lg-8 p-3">
+        <div class="dashboard text-center p-5">        
+          <h2 class="card-title"><span>Welcome to sportslibrary.com</span></h2>
+          <p class="card-text">Help us compile information about every sports that has ever been played.</p>
+         
+            <div class="row pb-4">            
+                <div class="col-sm-4">
+                  <h5>Baseball</h5>
+                <a href="baseball.html"><img  src="images/Baseball.jpg" class="img-fluid"/></a>  
+                </div>
+                <div class="col-sm-4">
+                  <h5>Football</h5>
+                  <a href="football.html"><img  src="images/Football.jpg" class="img-fluid" /></a>
+                </div>
+                <div class="col-sm-4">
+                  <h5>Basketball</h5>
+                  <a href="basketball.html"><img  src="images/Basketball.jpg" class="img-fluid" /></a>
+                </div>
+            </div>
+        
+          
+          <a href="add_sport.html" class="btn btn-primary">Add a Sport</a>
+        </div> 
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Link to jquery and bootstrap javascript  -->
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+    
+</body>
+</html>

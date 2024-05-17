@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Sport</title>
+     <!-- Link to style sheet -->
+     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+     <link rel="stylesheet" href="/css/site.css">
+<body class="container">
+  <nav class="navbar p-3 navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Sports Library</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="baseball.html">Baseball</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="basketball.html">Basketball</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="football.html">Football</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="add_sport.html">Add a Sport</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+       <div class="col">
+          <form>
+            <label for="sportname">Sport Name:</label>
+            <div style="padding-bottom: 8px;"><input type="text" id="snme" name="sportname"></div>
+        
+            <label for="sportdescription">Description:</label>
+            <div style="padding-bottom: 8px;"> <textarea id="spdesc" name="sportdescription" rows="4" cols="50"></textarea></div>
+            
+            <label for="sportdescription">Image:</label>
+            <div style="padding-bottom: 16px;"><input type="file" name="sportimage"></div>
+        
+            <input type="submit" value="Submit">
+        </form>
+
+
+        
+      </div>     
+        
+        </div>
+      </div>
+
+
+</div>
+</div>
+
+
+</body>
+</html>
